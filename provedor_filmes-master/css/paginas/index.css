@@ -1,0 +1,94 @@
+@import url("../globais/global.css");
+@import url("../globais/header.css");
+@import url("../globais/footer.css");
+
+/*COMECE A FAZER ABAIXO*/
+
+.subheader{
+  margin: -32px 0 30px;
+  background-color: #C4C4C4;
+  padding: 5px 30px;
+  margin-left: -30px;
+  margin-right: -30px;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.grid h2{
+  margin: 10px 0 10px;
+}
+
+.subheader li:last-child{
+  font-style: italic;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-gap: 2%;
+}
+
+.imagens{
+  display: flex;
+  justify-content: space-between;
+}
+
+img.img1,.img2,.img3{
+  width:182px;
+  height: 268px;
+  background-color: #C4C4C4;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+img:hover{
+  filter: drop-shadow(0 1rem 0.75rem black);
+  transform: scale(1.05);
+}
+
+.trailer{
+  width:340px;
+  height: 192px;
+  border-radius: 5px;
+}
+
+.vantagens{
+  background-color: #3f0d12;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #720e1d 74%);
+  padding: 30px 20px 30px 40px;
+  font-size: 14px;
+  color: white;
+  line-height: 30px;
+  width:282px;
+  height: 268px;
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px red;
+}
+
+.vantagens li{
+  list-style: circle;
+}
+
+.vantagens li:last-child{
+  margin-bottom: 20px;
+}
+
+.vantagens h1{
+  display: inline;
+  padding: 3px;
+  margin: 20px -15px;
+  font-size: 20px;
+  border: 1px solid white;
+}
+
+.integrantes{
+  background: black;
+  padding: 30px 20px;
+  font-size: 14px;
+  line-height: 40px;
+  color: white;
+  width:282px;
+  height: 268px;
+  border-radius: 5px;
+}

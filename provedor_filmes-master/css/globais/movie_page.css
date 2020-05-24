@@ -1,0 +1,71 @@
+@import url("../globais/global.css");
+@import url("../globais/header.css");
+@import url("../globais/footer.css");
+
+/*COMECE A FAZER ABAIXO*/
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.textos{
+  width: 30%;
+}
+
+.iframe{
+  width: 490px;
+  height: 276px;
+  background-color: #721A1A;
+  border-radius: 3px;
+}
+
+.youtube{
+  margin-right: 50px;
+  text-align: center;
+}
+
+.assistir{
+  width: 200px;
+  height: 50px;
+  margin-top:20px;
+  border-radius: 5px;
+  border:none;
+  background-color: rgb(221, 31, 31);
+  color: white;   
+  border: 1px solid rgb(221, 31, 31);
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.assistir:hover{
+  color: rgb(221, 31, 31);
+  background-color: white;
+}
+
+.imagens img{
+  width: 204px;
+  height: 115px;
+  background-color: #C4C4C4;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px black;
+}
+
+.voltar{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+.voltar:hover{
+  color: black;
+  background-color: white;
+}
+

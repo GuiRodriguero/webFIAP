@@ -1,0 +1,26 @@
+@import "global.css";
+
+footer{
+  position: fixed;
+  width: 100%;
+  padding: 8px 40px;
+  background: var(--footer-bk-color);
+  color: var(--footer-f-color);
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  z-index: 1000;
+}
+
+footer h1{
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s ease-in;
+}
+
+footer h1:hover{
+  transform: scale(1.1);
+  text-shadow: 3px 3px 2px rgba(255, 7, 7, 0.493);
+  color: rgb(255, 104, 104);
+}
+

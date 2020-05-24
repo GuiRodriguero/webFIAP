@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--COLOQUE O TÍTULO DA SUA PÁGINA AQUI-->
+  <!--CRIE O SEU ARQUIVO .CSS E COLOQUE O DIRETÓRIO AQUI-->
+  <!--NÃO ESQUEÇA DE DAR OS IMPORTS ASSIM COMO ESTÁ NO MODEL.CSS-->
+  <link rel="stylesheet" href="../css/paginas/contato.css">
+
+  <link href="../img/favicon.png" rel="icon" type="image/x-icon" />
+  <title> NextCine - Contato</title>
+
+</head>
+
+<body>
+
+  <header>
+    <ul class="list">
+      <li> <a href="../index.html">HOME</a> </li>
+      <li> <a href="movies.html">FILMES</a> </li>
+      <li> <a href="series.html">SÉRIES</a> </li>
+      <li> <a href="categorias.html">CATEGORIAS</a> </li>
+      <li> <a href="contato.html">CONTATO</a> </li>
+    </ul>
+  </header>
+
+  <!--SEU CONTEÚDO VAI AQUI DENTRO-->
+
+  <main class="content">
+
+    <div class="container">
+      <h1>Contato</h1>
+      <form action="#formulario" id="formulario">
+        
+        <div class="secao">
+          <label for="nome">Nome: </label>
+          <input type="text" id="nome" placeholder="Seu nome">
+        </div>
+
+        <div class="secao">
+          <label for="email">Email: </label>
+          <input type="email" id="email" placeholder="Seu email">
+        </div>
+
+        <label for="assunto">Assunto:</label>
+          <textarea name="assunto" id="assunto" form="formulario" placeholder="Escreva sua mensagem"></textarea>
+
+        
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="left">
+      <h1>made by <span class="next">NextStep</span> </h1>
+    </div>
+
+    <div class="right">
+      <h1>1TDST 2020</h1>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope";
+  text-decoration: none;
+  list-style: none;
+}
+
+:root{
+  --header-bk-color: rgb(51, 4, 4);
+  --header-f-color: white;
+  --footer-bk-color: linear-gradient(90deg,black,rgb(51, 4, 4));
+  --footer-f-color: white;
+}
+
+.content{
+  padding: 110px 30px;
+}
+
+a{
+  color: black;
+}
+

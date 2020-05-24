@@ -1,0 +1,56 @@
+@import url("../globais/global.css");
+@import url("../globais/header.css");
+@import url("../globais/footer.css");
+
+.container h1, h3 {
+   padding: 20px 0;
+}
+
+.categoria {
+   display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.filme {
+   /* If the padding property has three values:
+   top padding is 25px
+   right and left paddings are 50px
+   bottom padding is 75px */
+   padding: 10px 0 15px;
+   text-align: center;
+}
+.filme p {
+   padding: 10px;
+}
+
+.filme button {
+   padding: 3px 20px;
+   border-radius: 5px;
+   background-color: rgb(221, 31, 31);
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   border: 1px solid rgb(221, 31, 31);
+   transition: 0.3s;
+}
+
+.filme button:hover{
+   color: rgb(221, 31, 31);
+   background-color: white;
+}
+
+.filme img {
+   border-radius: 5px;
+   transition: 0.5s;
+}
+
+.filme img:hover {
+   filter: drop-shadow(0 0.5rem 0.75rem black);
+   transform: scale(1.05);
+   cursor: pointer;
+}
+
+.empty-space {
+   margin-top: 50px;
+}

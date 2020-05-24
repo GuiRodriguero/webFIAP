@@ -1,0 +1,28 @@
+@import url("../globais/global.css");
+@import url("../globais/header.css");
+@import url("../globais/footer.css");
+
+/*COMECE A FAZER ABAIXO*/
+
+.container{
+  width: 100%;
+}
+
+.imagens{
+  display: flex;
+  justify-content:space-between ;
+}
+
+.imagens img{
+  width:400px;
+  height:225px;
+  background-color: #c4c4c4;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.imagens img:hover{
+  transform: scale(1.05);
+  transform:translateY(20px);
+  filter: drop-shadow(0 1rem 0.75rem black);
+}
