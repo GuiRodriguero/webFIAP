@@ -1,0 +1,4 @@
+Director: Chad Stahelski
+Elenco: Keanu Reeves, Halle Berry, Ian McShane, Laurence Fishburne, Mark Dacascos
+Sinopse: O lendário John Wick luta para sair de Nova York quando um contrato de 14 milhões de dólares faz dele o alvo dos maiores assassinos do mundo.
+link: <iframe width="1349" height="480" src="https://www.youtube.com/embed/IaCjKkrAW4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,0 +1,8 @@
+contextsDir=C\:\\Program Files (x86)\\Apache Software Foundation\\Tomcat 9.0\\conf\\Catalina\\localhost
+eclipse.preferences.version=1
+managerUrl=http\://localhost\:8080/manager
+projectsInSourcePath=controle-acesso;
+tomcatConfigFile=C\:\\Program Files (x86)\\Apache Software Foundation\\Tomcat 9.0\\conf\\server.xml
+tomcatDir=C\:\\Program Files (x86)\\Apache Software Foundation\\Tomcat 9.0
+tomcatJRE=1596764992648
+tomcatVersion=tomcatV9

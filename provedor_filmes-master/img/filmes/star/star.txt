@@ -1,4 +1,0 @@
-Director: J.J. Abrams
-Elenco: Harrison Ford, Mark Hamill, Carrie Fisher, Adam Driver, Daisy Ridley
-Sinopse: A queda de Darth Vader e do Império levou ao surgimento de uma nova força sombria: a Primeira Ordem. Eles procuram o jedi Luke Skywalker, desaparecido. A resistência tenta desesperadamente encontrá-lo antes para salvar a galáxia.
-link: <iframe width="1349" height="480" src="https://www.youtube.com/embed/sGbxmsDFVnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
